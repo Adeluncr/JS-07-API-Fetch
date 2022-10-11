@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <br>
+        <h1>JS-07 API Fetch</h1>
+        <br>
+        <div class="row">
+            <div class="col">
+                <!-- Boton para obtener la informacion de todos los usuarios -->
+                <button class="btn btn-dark col-md-8" id="botongetUsers" onclick="getUsers()">Obtener
+                    usuarios de la API</button>
+            </div>
+            <div class="col">
+                <!-- Boton para mostrar la informacion guardada en el localStorage -->
+                <button class="btn btn-dark col-md-8" id="botonLocalStorage" onclick="getLocalStorage()">Mostrar
+                    Datos del LocalStorage</button>
+            </div>
+            <div class="col">
+                <!-- Boton para eliminar la informacion guardada en el localStorage -->
+                <button class="btn btn-dark col-md-8" id="botonLocalStorage" onclick="deleteLocalStorage()">Borrar
+                    Datos del LocalStorage</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+
+
+            <!-- Contenedor para imprimir a los usuarios-->
+        <div class="container text-center" id="userContainer"></div>
+        <p id="datos"></p>
+        </div>
+
+        
+</body>
+
+
+<script src="/assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
